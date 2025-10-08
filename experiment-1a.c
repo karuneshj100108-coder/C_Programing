@@ -1,13 +1,20 @@
-/*
-  Name : karunesh jadhav
-  UIN : 251C019
-  Feild : civl
-  Div :  B */
+/* Name: karunesh Jadhav
+Age :18
+Class:civil
+Division: B
+UIN : 251C019*/
 #include <stdio.h>
 
-int main()
-{
-    printf("typing github");
+int main() {
+    printf("NAME: karunesh jadhav\n");
 
-    return 0;
+printf("AGE:18\n");
+
+printf("CLASS: civil\n ");
+
+printf("DIVISION: b\n");
+
+printf("UIN : 251C019 \n");
+
+return 0;
 }
