@@ -4,19 +4,21 @@ Class:civil
 Division: B
 UIN : 251C019*/
 #include <stdio.h>
-int main() 
-{
-  int num1;
-  int num2;
-  int sum=0;
-  printf("enter a first number ");
-  scanf("%d", &num1);
-  scanf("%d", &num2);
-  for(int i = num1 ;i<=num2:i++){
-  if (i%2! =0){
-  sum +=1;
-  printf ("sum is %d", sum);
-  }
-  }
+int main() {
+  int start , end , sum = 0;
+  
+  printf("Enter a starting number: ");
+  scanf("%d", &start);
+  
+  printf("Enter the ending number: ");
+  scanf("%d", &end);
+  
+  for(int i = start; i <= end; i++){
+     if (i % 2 != 0){
+        sum += 1;
+      }
+   }
+
+   printf("Sum of odd number between %d and %d = %d\n",start,end,sum);
   return 0;
 }
